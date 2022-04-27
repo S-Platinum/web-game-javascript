@@ -1,21 +1,23 @@
-Canvas Boilerplate is the go-to solution for quickly creating modern canvas pieces using ES6 and webpack.
-
-## Getting Started
-
-1.  Clone the repo:
-
-        git clone https://github.com/christopher4lis/canvas-boilerplate.git
-
-2.  Install dependencies:
-
-        yarn
-
-    or
-
-        npm install
-
-3.  Run webpack:
-
-        npm start
-
-Your canvas piece should open up automatically at http://localhost:3000 and you should see 'HTML CANVAS BOILERPLATE' on hover.
+ <h3>Il Ji-Mae: The Phantom Thief</h3>
+            <img src='https://i.postimg.cc/bJPqq88Z/iljimae.png' style='width: 100%;'/>
+            <p>The legend of Iljimae, Korea's version of Robin Hood, is set during the Joseon dynasty. One who steals from the rich and left behind a plum blossom. 
+              A legend who rose from humble beginnings to rob from the rich and fight for the poor while on a mission for revenge.</p><br>
+            <img src='https://i.postimg.cc/G3WnRdQd/gyeongbokgung-Palace.png' width='100%' height='50%'>
+            <p>Iljimae is suppose to steal as many coins as possible until he reaches the 'shop' where the money will be delivered to the poors.
+            Iljimae can jump very high and even fly accross but gravity will always pull him down. Typically, he stays on the roofs.
+            If he falls to the ground, he is likely to be captured but he gets free and start all over again.</p>
+            <br>
+            <img src='https://i.postimg.cc/X7gWktfW/destination-shop.png'style='width: 100%;'>
+            <p>This game is designed for both left handed and right handed player. Left handed player please use a(Left), w(Up) and d(Right),<br>
+            &emsp;<button type="button" class="btn btn-primary">W</button><br> 
+            <button type="button" class="btn btn-primary">A</button><button type="button" class="btn btn-secondary">S</button><button type="button" class="btn btn-primary">D</button><br> 
+            <p>whereas Right handed player please use the arrow keys accordingly.</p><br>
+            &emsp;&emsp;<button type="button" class="btn btn-primary">^</button><br> 
+            <button type="button" class="btn btn-primary"><</button><button type="button" class="btn btn-secondary">V</button>
+            <button type="button" class="btn btn-primary">></button></p><br> 
+            <p>Alternatively, you can use the four buttons created on the screen to maneuvers around using left , right and up. Ideally for either left or right handled players. </p>
+            
+            <p>Iljimae is programmed by Remy Lim in 2022, using mainly Javascript to demonstrate most of the common commands used in HTML5, Bootstrap and Javascript.
+            </p>
+            <img src='data:image/jpeg;base64,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' style='width: 30%; height:30%;'>
+            </div>
